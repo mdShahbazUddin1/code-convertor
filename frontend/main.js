@@ -1,6 +1,6 @@
 let monacoEditor;
 let selectedLanguage = "javascript";
-let url = `http://localhost:8080`
+let url = `https://lazy-lime-betta-toga.cyclic.app`;
 require.config({
   paths: {
     vs: "https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.23.0/min/vs",
