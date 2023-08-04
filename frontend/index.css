@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+.option-container {
+  border: 2px solid black;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.select-options {
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: green;
+}
+
+.select-options select,
+button {
+  width: 20%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.main-container div {
+  width: 50%;
+}
+.main-container div:nth-child(2) {
+  width: 50%;
+  overflow: hidden;
+}
+#outputCode {
+  width: 100%;
+  white-space: pre-wrap;
+  text-align: start;
+}
